@@ -91,6 +91,9 @@ function* solveHanoi(pegA: Disc[]): AlgorithmGenerator {
     yield result;
   }
 
+  result.pegA = clearIsActive(result.pegA);
+  result.pegB = clearIsActive(result.pegB);
+  result.pegC = clearIsActive(result.pegC);
   return result;
 }
 
