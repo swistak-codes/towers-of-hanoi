@@ -9,7 +9,7 @@
   $base-color: red;
   $active-color: green;
   $peg-color: lighten(#a85751, 10%);
-  $disc-height: 40px;
+  $disc-height: 20px;
 
   @mixin disc-coloring($color) {
     background: $color;
