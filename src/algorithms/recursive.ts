@@ -18,7 +18,7 @@ type Peg = {
 let moveCount = 0;
 
 function* solveHanoi(pegA: Disc[]): AlgorithmGenerator {
-  let result: AlgorithmReturnType = {
+  const result: AlgorithmReturnType = {
     pegA: pegA,
     pegB: [],
     pegC: [],

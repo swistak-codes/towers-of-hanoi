@@ -21,7 +21,7 @@
   import { executeWhole } from '../helpers/executeWhole';
 
   export let algorithm: Algorithm;
-  let fps = 30;
+  let fps = 4;
   let iterator: AlgorithmGenerator;
   let isAnimating = false;
 
