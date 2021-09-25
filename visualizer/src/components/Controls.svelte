@@ -30,7 +30,7 @@
    */
   const startIteration = () => {
     // pobieramy iterator z funkcji
-    iterator = algorithm.doWork($pegA); // TODO przekazac dane
+    iterator = algorithm.doWork($pegA);
     // ustawiamy, że dane nie są "świeże"
     $isFreshData = false;
   };
